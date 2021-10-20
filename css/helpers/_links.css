@@ -1,0 +1,56 @@
+.link-primary {
+   color: #3688fc;
+}
+.link-primary:focus,
+.link-primary:hover {
+   color: #2e74d6;
+}
+.link-secondary {
+   color: #919ca7;
+}
+.link-secondary:focus,
+.link-secondary:hover {
+   color: #7b858e;
+}
+.link-success {
+   color: #42d29d;
+}
+.link-success:focus,
+.link-success:hover {
+   color: #38b385;
+}
+.link-info {
+   color: #44badc;
+}
+.link-info:focus,
+.link-info:hover {
+   color: #3a9ebb;
+}
+.link-warning {
+   color: #f9bc0d;
+}
+.link-warning:focus,
+.link-warning:hover {
+   color: #fac631;
+}
+.link-danger {
+   color: #fa6767;
+}
+.link-danger:focus,
+.link-danger:hover {
+   color: #d55858;
+}
+.link-light {
+   color: #eef2f7;
+}
+.link-light:focus,
+.link-light:hover {
+   color: #f1f4f8;
+}
+.link-dark {
+   color: #474d56;
+}
+.link-dark:focus,
+.link-dark:hover {
+   color: #3c4149;
+}

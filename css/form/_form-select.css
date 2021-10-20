@@ -1,0 +1,55 @@
+.form-select {
+   display: block;
+   width: 100%;
+   padding: 0.45rem 2.5rem 0.45rem 0.9rem;
+   font-size: 0.9rem;
+   font-weight: 400;
+   line-height: 1.5;
+   color: #838c96;
+   background-color: #fff;
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+   background-repeat: no-repeat;
+   background-position: right 0.9rem center;
+   background-size: 16px 12px;
+   border: 1px solid #dee2e6;
+   border-radius: 0.25rem;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+}
+.form-select:focus {
+   border-color: #c8cbcf;
+   outline: 0;
+   -webkit-box-shadow: none;
+   box-shadow: none;
+}
+.form-select[multiple],
+.form-select[size]:not([size="1"]) {
+   padding-right: 0.9rem;
+   background-image: none;
+}
+.form-select:disabled {
+   color: #98a6ad;
+   background-color: #eef2f7;
+}
+.form-select:-moz-focusring {
+   color: transparent;
+   text-shadow: 0 0 0 #838c96;
+}
+.form-select-sm {
+   padding-top: 0.28rem;
+   padding-bottom: 0.28rem;
+   padding-left: 0.8rem;
+   font-size: 0.875rem;
+}
+.form-select-lg {
+   padding-top: 0.5rem;
+   padding-bottom: 0.5rem;
+   padding-left: 1rem;
+   font-size: calc(1.2501rem + 0.0012vw);
+}
+@media (min-width: 1200px) {
+   .form-select-lg {
+      font-size: 1.251rem;
+   }
+}

@@ -1,0 +1,91 @@
+.font-monospace {
+   font-family: var(--bs-font-monospace) !important;
+}
+.fs-1 {
+   font-size: calc(1.35rem + 1.2vw) !important;
+}
+.fs-2 {
+   font-size: calc(1.3125rem + 0.75vw) !important;
+}
+.fs-3 {
+   font-size: calc(1.275rem + 0.3vw) !important;
+}
+.fs-4 {
+   font-size: 1.125rem !important;
+}
+.fs-5 {
+   font-size: 0.9375rem !important;
+}
+.fs-6 {
+   font-size: 0.75rem !important;
+}
+.fst-italic {
+   font-style: italic !important;
+}
+.fst-normal {
+   font-style: normal !important;
+}
+.fw-light {
+   font-weight: 300 !important;
+}
+.fw-lighter {
+   font-weight: lighter !important;
+}
+.fw-normal {
+   font-weight: 400 !important;
+}
+.fw-bold {
+   font-weight: 700 !important;
+}
+.fw-bolder {
+   font-weight: bolder !important;
+}
+.lh-1 {
+   line-height: 1 !important;
+}
+.lh-sm {
+   line-height: 1.25 !important;
+}
+.lh-base {
+   line-height: 1.5 !important;
+}
+.lh-lg {
+   line-height: 2 !important;
+}
+.text-start {
+   text-align: left !important;
+}
+.text-end {
+   text-align: right !important;
+}
+.text-center {
+   text-align: center !important;
+}
+.text-decoration-none {
+   text-decoration: none !important;
+}
+.text-decoration-underline {
+   text-decoration: underline !important;
+}
+.text-decoration-line-through {
+   text-decoration: line-through !important;
+}
+.text-lowercase {
+   text-transform: lowercase !important;
+}
+.text-uppercase {
+   text-transform: uppercase !important;
+}
+.text-capitalize {
+   text-transform: capitalize !important;
+}
+.text-wrap {
+   white-space: normal !important;
+}
+.text-nowrap {
+   white-space: nowrap !important;
+}
+.text-break {
+   word-wrap: break-word !important;
+   word-break: break-word !important;
+}

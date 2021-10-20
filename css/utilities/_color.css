@@ -1,0 +1,109 @@
+.text-primary {
+   color: #3688fc !important;
+}
+.text-secondary {
+   color: #919ca7 !important;
+}
+.text-success {
+   color: #42d29d !important;
+}
+.text-info {
+   color: #44badc !important;
+}
+.text-warning {
+   color: #f9bc0d !important;
+}
+.text-danger {
+   color: #fa6767 !important;
+}
+.text-light {
+   color: #eef2f7 !important;
+}
+.text-dark {
+   color: #474d56 !important;
+}
+.text-white {
+   color: #fff !important;
+}
+.text-body {
+   color: #838c96 !important;
+}
+.text-muted {
+   color: #98a6ad !important;
+}
+.text-black-50 {
+   color: rgba(0, 0, 0, 0.5) !important;
+}
+.text-white-50 {
+   color: rgba(255, 255, 255, 0.5) !important;
+}
+.text-reset {
+   color: inherit !important;
+}
+.bg-primary {
+   background-color: #3688fc !important;
+}
+.bg-secondary {
+   background-color: #919ca7 !important;
+}
+.bg-success {
+   background-color: #42d29d !important;
+}
+.bg-info {
+   background-color: #44badc !important;
+}
+.bg-warning {
+   background-color: #f9bc0d !important;
+}
+.bg-danger {
+   background-color: #fa6767 !important;
+}
+.bg-light {
+   background-color: #eef2f7 !important;
+}
+.bg-dark {
+   background-color: #474d56 !important;
+}
+.bg-body {
+   background-color: #fafbfe !important;
+}
+.bg-white {
+   background-color: #fff !important;
+}
+.bg-transparent {
+   background-color: transparent !important;
+}
+.bg-gradient {
+   background-image: var(--bs-gradient) !important;
+}
+.bg-primary-lighten {
+   background-color: rgba(54, 136, 252, 0.25) !important;
+}
+
+.bg-secondary-lighten {
+   background-color: rgba(145, 156, 167, 0.25) !important;
+}
+
+.bg-success-lighten {
+   background-color: rgba(66, 210, 157, 0.25) !important;
+}
+
+.bg-info-lighten {
+   background-color: rgba(68, 186, 220, 0.25) !important;
+}
+
+.bg-warning-lighten {
+   background-color: rgba(249, 188, 13, 0.25) !important;
+}
+
+.bg-danger-lighten {
+   background-color: rgba(250, 103, 103, 0.25) !important;
+}
+
+.bg-light-lighten {
+   background-color: rgba(238, 242, 247, 0.25) !important;
+}
+
+.bg-dark-lighten {
+   background-color: rgba(71, 77, 86, 0.25) !important;
+}

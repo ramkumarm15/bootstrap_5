@@ -1,0 +1,101 @@
+.nav {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -ms-flex-wrap: wrap;
+   flex-wrap: wrap;
+   padding-left: 0;
+   margin-bottom: 0;
+   list-style: none;
+}
+.nav-link {
+   display: block;
+   padding: 0.5rem 1rem;
+   color: #3688fc;
+   -webkit-transition: color 0.15s ease-in-out,
+      background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out;
+}
+@media (prefers-reduced-motion: reduce) {
+   .nav-link {
+      -webkit-transition: none;
+      transition: none;
+   }
+}
+.nav-link:focus,
+.nav-link:hover {
+   color: #2966bd;
+}
+.nav-link.disabled {
+   color: #98a6ad;
+   pointer-events: none;
+   cursor: default;
+}
+.nav-tabs {
+   border-bottom: 1px solid #dee2e6;
+}
+.nav-tabs .nav-link {
+   margin-bottom: -1px;
+   background: 0 0;
+   border: 1px solid transparent;
+   border-top-left-radius: 0.25rem;
+   border-top-right-radius: 0.25rem;
+}
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+   border-color: #eef2f7 #eef2f7 #dee2e6;
+   isolation: isolate;
+}
+.nav-tabs .nav-link.disabled {
+   color: #98a6ad;
+   background-color: transparent;
+   border-color: transparent;
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+   color: #484e53;
+   background-color: #fff;
+   border-color: #dee2e6 #dee2e6 #fff;
+}
+.nav-tabs .dropdown-menu {
+   margin-top: -1px;
+   border-top-left-radius: 0;
+   border-top-right-radius: 0;
+}
+.nav-pills .nav-link {
+   background: 0 0;
+   border: 0;
+   border-radius: 0.25rem;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+   color: #fff;
+   background-color: #3688fc;
+}
+.nav-fill .nav-item,
+.nav-fill > .nav-link {
+   -webkit-box-flex: 1;
+   -ms-flex: 1 1 auto;
+   flex: 1 1 auto;
+   text-align: center;
+}
+.nav-justified .nav-item,
+.nav-justified > .nav-link {
+   -ms-flex-preferred-size: 0;
+   flex-basis: 0;
+   -webkit-box-flex: 1;
+   -ms-flex-positive: 1;
+   flex-grow: 1;
+   text-align: center;
+}
+.nav-fill .nav-item .nav-link,
+.nav-justified .nav-item .nav-link {
+   width: 100%;
+}
+.tab-content > .tab-pane {
+   display: none;
+}
+.tab-content > .active {
+   display: block;
+}

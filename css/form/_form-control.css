@@ -1,0 +1,249 @@
+.form-label {
+   margin-bottom: 0.5rem;
+}
+.col-form-label {
+   padding-top: calc(0.45rem + 1px);
+   padding-bottom: calc(0.45rem + 1px);
+   margin-bottom: 0;
+   font-size: inherit;
+   line-height: 1.5;
+}
+.col-form-label-lg {
+   padding-top: calc(0.5rem + 1px);
+   padding-bottom: calc(0.5rem + 1px);
+   font-size: calc(1.2501rem + 0.0012vw);
+}
+@media (min-width: 1200px) {
+   .col-form-label-lg {
+      font-size: 1.251rem;
+   }
+}
+.col-form-label-sm {
+   padding-top: calc(0.28rem + 1px);
+   padding-bottom: calc(0.28rem + 1px);
+   font-size: 0.875rem;
+}
+.form-text {
+   margin-top: 0.25rem;
+   font-size: 0.75rem;
+   color: #98a6ad;
+}
+.form-control {
+   display: block;
+   width: 100%;
+   padding: 0.45rem 0.9rem;
+   font-size: 0.9rem;
+   font-weight: 400;
+   line-height: 1.5;
+   color: #838c96;
+   background-color: #fff;
+   background-clip: padding-box;
+   border: 1px solid #dee2e6;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   border-radius: 0.25rem;
+   -webkit-transition: border-color 0.15s ease-in-out,
+      -webkit-box-shadow 0.15s ease-in-out;
+   transition: border-color 0.15s ease-in-out,
+      -webkit-box-shadow 0.15s ease-in-out;
+   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+      -webkit-box-shadow 0.15s ease-in-out;
+}
+@media (prefers-reduced-motion: reduce) {
+   .form-control {
+      -webkit-transition: none;
+      transition: none;
+   }
+}
+.form-control[type="file"] {
+   overflow: hidden;
+}
+.form-control[type="file"]:not(:disabled):not([readonly]) {
+   cursor: pointer;
+}
+.form-control:focus {
+   color: #838c96;
+   background-color: #fff;
+   border-color: #c8cbcf;
+   outline: 0;
+   -webkit-box-shadow: none;
+   box-shadow: none;
+}
+.form-control::-webkit-date-and-time-value {
+   height: 1.5em;
+}
+.form-control::-webkit-input-placeholder {
+   color: #adb5bd;
+   opacity: 1;
+}
+.form-control::-moz-placeholder {
+   color: #adb5bd;
+   opacity: 1;
+}
+.form-control:-ms-input-placeholder {
+   color: #adb5bd;
+   opacity: 1;
+}
+.form-control::-ms-input-placeholder {
+   color: #adb5bd;
+   opacity: 1;
+}
+.form-control::placeholder {
+   color: #adb5bd;
+   opacity: 1;
+}
+.form-control:disabled,
+.form-control[readonly] {
+   background-color: #eef2f7;
+   opacity: 1;
+}
+.form-control::file-selector-button {
+   padding: 0.45rem 0.9rem;
+   margin: -0.45rem -0.9rem;
+   -webkit-margin-end: 0.9rem;
+   margin-inline-end: 0.9rem;
+   color: #838c96;
+   background-color: #eef2f7;
+   pointer-events: none;
+   border-color: inherit;
+   border-style: solid;
+   border-width: 0;
+   border-inline-end-width: 1px;
+   border-radius: 0;
+   -webkit-transition: color 0.15s ease-in-out,
+      background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+      -webkit-box-shadow 0.15s ease-in-out;
+   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+      -webkit-box-shadow 0.15s ease-in-out;
+}
+@media (prefers-reduced-motion: reduce) {
+   .form-control::file-selector-button {
+      -webkit-transition: none;
+      transition: none;
+   }
+}
+.form-control:hover:not(:disabled):not([readonly])::file-selector-button {
+   background-color: #e2e6eb;
+}
+.form-control::-webkit-file-upload-button {
+   padding: 0.45rem 0.9rem;
+   margin: -0.45rem -0.9rem;
+   -webkit-margin-end: 0.9rem;
+   margin-inline-end: 0.9rem;
+   color: #838c96;
+   background-color: #eef2f7;
+   pointer-events: none;
+   border-color: inherit;
+   border-style: solid;
+   border-width: 0;
+   border-inline-end-width: 1px;
+   border-radius: 0;
+   -webkit-transition: color 0.15s ease-in-out,
+      background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+      -webkit-box-shadow 0.15s ease-in-out;
+   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+      -webkit-box-shadow 0.15s ease-in-out;
+}
+@media (prefers-reduced-motion: reduce) {
+   .form-control::-webkit-file-upload-button {
+      -webkit-transition: none;
+      transition: none;
+   }
+}
+.form-control:hover:not(:disabled):not([readonly])::-webkit-file-upload-button {
+   background-color: #e2e6eb;
+}
+.form-control-plaintext {
+   display: block;
+   width: 100%;
+   padding: 0.45rem 0;
+   margin-bottom: 0;
+   line-height: 1.5;
+   color: #838c96;
+   background-color: transparent;
+   border: solid transparent;
+   border-width: 1px 0;
+}
+.form-control-plaintext.form-control-lg,
+.form-control-plaintext.form-control-sm {
+   padding-right: 0;
+   padding-left: 0;
+}
+.form-control-sm {
+   min-height: calc(1.5em + 0.56rem + 2px);
+   padding: 0.28rem 0.8rem;
+   font-size: 0.875rem;
+   border-radius: 0.2rem;
+}
+.form-control-sm::file-selector-button {
+   padding: 0.28rem 0.8rem;
+   margin: -0.28rem -0.8rem;
+   -webkit-margin-end: 0.8rem;
+   margin-inline-end: 0.8rem;
+}
+.form-control-sm::-webkit-file-upload-button {
+   padding: 0.28rem 0.8rem;
+   margin: -0.28rem -0.8rem;
+   -webkit-margin-end: 0.8rem;
+   margin-inline-end: 0.8rem;
+}
+.form-control-lg {
+   min-height: calc(1.5em + 1rem + 2px);
+   padding: 0.5rem 1rem;
+   font-size: calc(1.2501rem + 0.0012vw);
+   border-radius: 0.3rem;
+}
+@media (min-width: 1200px) {
+   .form-control-lg {
+      font-size: 1.251rem;
+   }
+}
+.form-control-lg::file-selector-button {
+   padding: 0.5rem 1rem;
+   margin: -0.5rem -1rem;
+   -webkit-margin-end: 1rem;
+   margin-inline-end: 1rem;
+}
+.form-control-lg::-webkit-file-upload-button {
+   padding: 0.5rem 1rem;
+   margin: -0.5rem -1rem;
+   -webkit-margin-end: 1rem;
+   margin-inline-end: 1rem;
+}
+textarea.form-control {
+   min-height: calc(1.5em + 0.9rem + 2px);
+}
+textarea.form-control-sm {
+   min-height: calc(1.5em + 0.56rem + 2px);
+}
+textarea.form-control-lg {
+   min-height: calc(1.5em + 1rem + 2px);
+}
+.form-control-color {
+   max-width: 3rem;
+   height: auto;
+   padding: 0.45rem;
+}
+.form-control-color:not(:disabled):not([readonly]) {
+   cursor: pointer;
+}
+.form-control-color::-moz-color-swatch {
+   height: 1.5em;
+   border-radius: 0.25rem;
+}
+.form-control-color::-webkit-color-swatch {
+   height: 1.5em;
+   border-radius: 0.25rem;
+}
